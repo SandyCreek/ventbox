@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=en>
+	<meta charset="UTF-8">
+	<title>The Vent</title>
+	<link rel="stylesheet" href="css/style.css">
+<head>
+	
+</head>
+
+<header>
+	<h1>
+		Welcome to the vent. Feel free to share anything you feel like sharing, it will be kept 100% confidential.
+	</h1>
+</header>
+
+<body>
+	<textarea id="box" rows="20" cols="30"></textarea>
+	<input type="submit" name="submit" value="SEND" onclick="boxClear()">
+</body>
+</html>
+
+<script type="text/javascript">
+	function boxClear(){
+		document.getElementById('box').value = "";
+	}
+</script>
